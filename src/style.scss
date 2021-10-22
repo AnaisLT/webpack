@@ -1,0 +1,14 @@
+$body-color: #9AECDB;
+$app-title: 48px;
+
+body {
+  background-color: $body-color;
+
+   .title {
+    font-size: $app-title;
+    display: flex;
+    justify-content: center;
+    border: 2px dashed black;
+    padding: 2rem;
+  }
+}
